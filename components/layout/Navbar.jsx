@@ -63,18 +63,7 @@ const Navbar = () => {
           <Link href="tel:+902128872367" className=" md:inline-block hidden">
             +90 212 887 23 67
           </Link>
-          <Link href="/contact">
-            <div className="flex gap-x-3 bg-primaryBtn p-3 rounded ">
-              <button className="bg-primaryBtn text-white">Teklif Al</button>
-              <Image
-                src={Arrow}
-                alt="Arrow"
-                width="auto"
-                height="auto"
-                className="lg:inline-block hidden sm"
-              />
-            </div>
-          </Link>
+
           <button className="sm:hidden inline-block" onClick={() => openMenu()}>
             <GiHamburgerMenu className="text-xl" />
           </button>
