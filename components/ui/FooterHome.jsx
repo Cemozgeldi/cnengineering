@@ -71,9 +71,7 @@ const FooterHome = () => {
           className="mx-auto"
         />
         <div className="container mx-auto w-96 text-textColor font-titilum italic mb-8">
-          -Yakında sizlerle deprem mühendisliği alanındaki bilgi ve deneyimimizi
-          paylaşmak için bir blog başlatacağız. Güncel haberler, ipuçları ve
-          sektörel bilgilerle sizleri bilgilendireceğiz. Takipte kalın!-
+          -Blog bölümümüz yakında yayınlanacaktır.-
         </div>
       </div>
     </>

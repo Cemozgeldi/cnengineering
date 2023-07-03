@@ -15,9 +15,9 @@ const ProjectCard = () => {
         <Image src={line} alt="line" height={3} width={128} />
       </div>
       <div className="flex items-center container mx-auto text-sm font-titilum mt-8">
-        Projelerimiz, müşterilerimize yüksek kaliteli ve uygun maliyetli sismik
-        risk azaltma hizmetleri sunarak toplumda olumlu bir etki yaratmayı
-        hedefliyoruz. Güvenli bir çevre için çalışıyoruz.
+        Müşterilerimize yüksek kaliteli ve uygun maliyetli sismik risk azaltma
+        hizmetleri sunarak toplumda olumlu bir etki yaratmayı hedefliyoruz.
+        Güvenli bir çevre için çalışıyoruz.
       </div>
       <div className="grid grid-cols-1 my-16 gap-5 sm:grid-cols-2 md:grid-cols-2 container bg-white w-full mx-auto">
         <div className="relative flex align-middle z-0 h-full bg-white">
