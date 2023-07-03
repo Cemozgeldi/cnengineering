@@ -17,8 +17,8 @@ const Hero = () => {
         priority
         className="w-full h-full object-cover absolute inset-0 z-0"
       />
-      <div className="absolute inset-0 z-10 flex flex-col justify-center">
-        <div className="container mx-auto py-24">
+      <div className="absolute inset-0 z-10 flex flex-col my-48">
+        <div className="container mx-auto my-0">
           <div className=" text-left font-titilum">
             <div className="text-5xl mb-6 leading-[73px] text-[#4A5C7A] font-[275] font-titilum">
               Değerlendirme
