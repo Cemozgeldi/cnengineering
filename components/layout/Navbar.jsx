@@ -20,17 +20,17 @@ const Navbar = () => {
           className={`sm:static absolute top-0 left-0 sm:h-auto sm:w-auto w-full h-full sm:bg-transparent  sm:flex hidden `}
         >
           <ul className="flex gap-x-6 sm:flex-row flex-col items-center justify-end">
-            <li className="px-[5px] py-[25px] hover:underline">
+            <li className="px-[5px] py-[25px]">
               <Link href="/" className="font- font-light font-xl">
                 Anasayfa
               </Link>
             </li>
-            <li className="px-[5px] py-[25px] hover:underline">
+            <li className="px-[5px] py-[25px]">
               <Link href="/about" className="font-titilum font-light font-xl">
                 Hakkımızda
               </Link>
             </li>
-            <li className="px-[5px] py-[25px] hover:underline">
+            <li className="px-[5px] py-[25px]">
               <Link
                 href="/services"
                 className="font-titilum font-light font-xl"
@@ -38,7 +38,7 @@ const Navbar = () => {
                 Hizmetlerimiz
               </Link>
             </li>
-            <li className="px-[5px] py-[25px] hover:underline">
+            <li className="px-[5px] py-[25px]">
               <Link
                 href="/projects"
                 className="font-titilum font-light font-xl"
@@ -46,7 +46,7 @@ const Navbar = () => {
                 Projeler
               </Link>
             </li>
-            <li className="px-[5px] py-[25px] hover:underline">
+            <li className="px-[5px] py-[25px]">
               <Link href="/contact" className="font-titilum font-light font-xl">
                 İletişim
               </Link>
