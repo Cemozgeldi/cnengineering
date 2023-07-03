@@ -53,21 +53,10 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <div className="flex gap-x-5 items-center">
-          <Image
-            src={headphone}
-            alt="headphone"
-            className="md:inline-block hidden sm"
-          />
 
-          <Link href="tel:+902128872367" className=" md:inline-block hidden">
-            +90 212 887 23 67
-          </Link>
-
-          <button className="sm:hidden inline-block" onClick={() => openMenu()}>
-            <GiHamburgerMenu className="text-xl" />
-          </button>
-        </div>
+        <button className="sm:hidden inline-block" onClick={() => openMenu()}>
+          <GiHamburgerMenu className="text-xl" />
+        </button>
       </div>
     </div>
   );
