@@ -20,12 +20,12 @@ const Hero = () => {
       <div className="absolute inset-0 z-10 flex flex-col my-48">
         <div className="container mx-auto my-0">
           <div className=" text-left font-titilum">
-            <div className="text-5xl mb-6 leading-[73px] text-[#4A5C7A] font-[275] font-titilum">
-              Değerlendirme
+            <div className="text-5xl mb-6 leading-[73px] text-[#4A5C7A] font-[275] font-titilum w-1/2">
+              Yapı ve Deprem Mühendisliği Hizmetleri
             </div>
             <div className="max-w-xs text-[#4A5C7A] font-[275] leading-[30px]">
-              CN Mühendislik olarak insanları ve yapıları depremlerin yıkıcı
-              etkilerinden korumak için hizmet sağlıyoruz
+              Yapıların ve tesislerin durumunu ve potansiyel risklerini
+              belirliyoruz.
             </div>
             <Link href="/contact">
               <button className="flex justify-between items-center gap-6 border-2 rounded-sm mt-8 p-3 text-[#2F627E] border-[#2F627E] ">
