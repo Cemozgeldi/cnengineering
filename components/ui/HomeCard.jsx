@@ -13,11 +13,11 @@ const HomeCard = () => {
         <div className="text-[#2f627e] text-2xl font-extralight">
           Biz Kimiz?
         </div>
-        <div className="text-textColor text-xl">
+        <div className="text-textColor text-xl flex-1">
           CN Mühendislik olarak insanları ve yapıları depremlerin yıkıcı
           etkilerinden korumak için hizmet sağlıyoruz.
         </div>
-        <div className="border-t-[1px] border-t-[#2f627e] mt-7">
+        <div className="border-t-[1px] border-t-[#2f627e]">
           <Link href="/about">
             <button className="flex justify-between items-center gap-6 rounded-sm mt-8 p-3 text-[#2F627E] border-[#2F627E] ">
               Detaylı bilgi
@@ -33,7 +33,7 @@ const HomeCard = () => {
         <div className="text-[#2f627e] text-2xl font-extralight">
           Projelerimiz
         </div>
-        <div className="text-textColor text-xl">
+        <div className="text-textColor text-xl flex-1">
           Yapısal mühendislik ve deprem mühendisliği hizmetleriyle sismik
           riskleri azaltıyoruz, yapıların güvenliğini sağlıyoruz.
         </div>
@@ -50,7 +50,7 @@ const HomeCard = () => {
         <div>
           <Image src={yellowArrow} alt="yellowArrow" />
         </div>
-        <div className="text-[#2f627e] text-2xl font-extralight">
+        <div className="text-[#2f627e] text-2xl font-extralight flex-1">
           Çözümlerimiz
         </div>
         <div className="text-textColor text-xl">
