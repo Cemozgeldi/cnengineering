@@ -21,7 +21,7 @@ const FooterHome = () => {
         className="flex flex-col md:flex-row justify-around items-start p-6 md:p-20 bg-[#2f627e] opacity-150 inset-0 z-0"
         style={bgStyle}
       >
-        <div className="w-full md:w-1/2 flex flex-col gap-y-8">
+        <div className="w-full md:w-1/2 flex flex-col gap-y-8 p-3">
           <div className="text-white text-2xl font-extralight">
             Hizmetlerimiz
           </div>
