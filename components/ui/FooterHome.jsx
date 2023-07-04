@@ -62,7 +62,7 @@ const FooterHome = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 my-6">
         <Image
           src={home3}
           width="full"
