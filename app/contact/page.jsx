@@ -65,12 +65,7 @@ const page = () => {
               Telefon
             </div>
             <div>
-              <Link
-                href="tel:+902128872367"
-                className=" md:inline-block hidden"
-              >
-                +90 212 887 23 67
-              </Link>
+              <Link href="tel:+902128872367">+90 212 887 23 67</Link>
             </div>
           </div>
         </div>
