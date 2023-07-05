@@ -41,7 +41,7 @@ const page = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-2 w-2/3 mx-auto">
-        <div className=" w-full h-32 flex flex-col gap-y-16">
+        <div className=" w-full gap-y-16">
           <div>
             CN Mühendislik olarak insanları ve yapıları depremlerin yıkıcı
             etkilerinden korumak için hizmet sağlıyoruz. Uzmanlardan oluşan
@@ -57,7 +57,7 @@ const page = () => {
             />
           </div>
         </div>
-        <div className="w-full flex flex-col gap-y-8">
+        <div className="w-full h-full gap-y-8">
           <div className="font-bold text-textColor font-titilum">
             Bizi ayıran nedir?
           </div>
